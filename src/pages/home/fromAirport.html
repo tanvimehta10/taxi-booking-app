@@ -1,0 +1,75 @@
+<ion-header>
+  <ion-navbar>
+    <ion-title>
+      Reservations
+    </ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content padding>
+<ion-list>
+
+  <ion-item>
+    <ion-label stacked>Name<span>*</span></ion-label>
+    <ion-input type="text"></ion-input>
+  </ion-item>
+
+  <ion-item>
+    <ion-label stacked>Address</ion-label>
+    <ion-input type="text"></ion-input>
+  </ion-item>
+
+   <ion-item>
+    <ion-label stacked>Email<span>*</span></ion-label>
+    <ion-input type="email"></ion-input>
+  </ion-item>
+
+   <ion-item>
+    <ion-label stacked>Phone Number<span>*</span></ion-label>
+    <ion-input type="tel"></ion-input>
+  </ion-item>
+
+   <ion-item>
+    <ion-label stacked>Pickup Date<span>*</span></ion-label>
+    <ion-datetime type="date" pickerFormat="DD MMM YYYY" [(ngModel)]="today" class="ion-datetime-picker">
+      
+    </ion-datetime>
+  </ion-item>
+
+   <ion-item>
+    <ion-label stacked>Pickup Time</ion-label>
+    <ion-datetime type="date" displayFormat="hh:mm a" pickerFormat="hh:mm a" [(ngModel)]="today"></ion-datetime>
+  </ion-item>
+
+   <ion-item>
+    <ion-label stacked>pick-Up Location</ion-label>
+    <ion-input type="text"></ion-input>
+  </ion-item>
+
+   <ion-item>
+    <ion-label stacked>Drop-off Location</ion-label>
+    <ion-input type="text"></ion-input>
+  </ion-item>
+
+   <ion-item>
+    <ion-label stacked>Airline and Flight No.</ion-label>
+    <ion-input type="text"></ion-input>
+  </ion-item>
+
+   <ion-item>
+    <ion-label stacked>No. Of Passengers</ion-label>
+    <ion-input type="text"></ion-input>
+  </ion-item>
+
+ <ion-item>
+    <ion-label stacked>No. Of Bags</ion-label>
+    <ion-input type="text"></ion-input>
+  </ion-item>
+
+ <ion-item>
+    <ion-label stacked>Comments Or Other Location</ion-label>
+    <ion-input type="text"></ion-input>
+  </ion-item>
+
+</ion-list>
+</ion-content>
